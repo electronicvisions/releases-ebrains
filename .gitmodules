@@ -1,0 +1,84 @@
+[submodule "jaxsnn"]
+	path = jaxsnn
+	url = https://github.com/electronicvisions/jaxsnn
+[submodule "pynn-brainscales"]
+	path = pynn-brainscales
+	url = https://github.com/electronicvisions/pynn-brainscales
+[submodule "hxtorch"]
+	path = hxtorch
+	url = https://github.com/electronicvisions/hxtorch
+[submodule "hate"]
+	path = hate
+	url = https://github.com/electronicvisions/hate
+[submodule "hxcomm"]
+	path = hxcomm
+	url = https://github.com/electronicvisions/hxcomm
+[submodule "bss-hw-params"]
+	path = bss-hw-params
+	url = https://github.com/electronicvisions/bss-hw-params
+[submodule "calix"]
+	path = calix
+	url = https://github.com/electronicvisions/calix
+[submodule "code-format"]
+	path = code-format
+	url = https://github.com/electronicvisions/code-format
+[submodule "fisch"]
+	path = fisch
+	url = https://github.com/electronicvisions/fisch
+[submodule "flange"]
+	path = flange
+	url = https://github.com/electronicvisions/flange
+[submodule "grenade"]
+	path = grenade
+	url = https://github.com/electronicvisions/grenade
+[submodule "halco"]
+	path = halco
+	url = https://github.com/electronicvisions/halco
+[submodule "haldls"]
+	path = haldls
+	url = https://github.com/electronicvisions/haldls
+[submodule "hwdb"]
+	path = hwdb
+	url = https://github.com/electronicvisions/hwdb
+[submodule "lib-boost-patches"]
+	path = lib-boost-patches
+	url = https://github.com/electronicvisions/lib-boost-patches
+[submodule "libnux"]
+	path = libnux
+	url = https://github.com/electronicvisions/libnux
+[submodule "lib-rcf"]
+	path = lib-rcf
+	url = https://github.com/electronicvisions/lib-rcf
+[submodule "logger"]
+	path = logger
+	url = https://github.com/electronicvisions/logger
+[submodule "pywrap"]
+	path = pywrap
+	url = https://github.com/electronicvisions/pywrap
+[submodule "rant"]
+	path = rant
+	url = https://github.com/electronicvisions/rant
+[submodule "sctrltp"]
+	path = sctrltp
+	url = https://github.com/electronicvisions/sctrltp
+[submodule "visions-slurm"]
+	path = visions-slurm
+	url = https://github.com/electronicvisions/visions-slurm
+[submodule "ztl"]
+	path = ztl
+	url = https://github.com/electronicvisions/ztl
+[submodule "oppulance"]
+	path = oppulance
+	url = https://github.com/electronicvisions/oppulance
+[submodule "newlib"]
+	path = newlib
+	url = https://github.com/electronicvisions/newlib
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/electronicvisions/gcc
+[submodule "binutils-gdb"]
+	path = binutils-gdb
+	url = https://github.com/electronicvisions/binutils-gdb
+[submodule "brainscales2-demos"]
+	path = brainscales2-demos
+	url = https://github.com/electronicvisions/brainscales2-demos

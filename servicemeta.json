@@ -1,0 +1,31 @@
+{
+    "@context": "https://servicemeta.apps.tc.humanbrainproject.eu/context/servicemeta.jsonld",
+    "type": "WebApplication",
+    "inputFormat": [
+        "RPC w/ serialization of in-memory data structures, see https://github.com/electronicvisions/hxcomm/blob/master/include/hxcomm/common/quiggeldy_interface_types.h"
+    ],
+    "outputFormat": [
+        "see inputFormat"
+    ],
+    "alternateName": "BrainScaleS-2 Experiment Service (ESD stable deployment)",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0001-5880-2012",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Kirchhoff-Institute for Physics, Heidelberg University"
+            },
+            "email": "mueller@kip.uni-heidelberg.de",
+            "familyName": "Müller",
+            "givenName": "Eric"
+        }
+    ],
+    "dateCreated": "2022-06-02",
+    "dateModified": "2024-10-08",
+    "identifier": "10.3389/fnins.2022.884128",
+    "description": "The BrainScaleS-2 Experiment Service provides access to BrainScaleS-2 neuromorphic systems; it orchestrates hardware access using a experiment microscheduler.",
+    "name": "quiggeldy",
+    "url": "telnet://brainscales-r.kip.uni-heidelberg.de:11750",
+    "version": "9.0"
+}

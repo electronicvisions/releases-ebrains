@@ -1,84 +1,112 @@
 [submodule "jaxsnn"]
 	path = jaxsnn
 	url = https://github.com/electronicvisions/jaxsnn
+	shallow = true
 [submodule "pynn-brainscales"]
 	path = pynn-brainscales
 	url = https://github.com/electronicvisions/pynn-brainscales
+	shallow = true
 [submodule "hxtorch"]
 	path = hxtorch
 	url = https://github.com/electronicvisions/hxtorch
+	shallow = true
 [submodule "hate"]
 	path = hate
 	url = https://github.com/electronicvisions/hate
+	shallow = true
 [submodule "hxcomm"]
 	path = hxcomm
 	url = https://github.com/electronicvisions/hxcomm
+	shallow = true
 [submodule "bss-hw-params"]
 	path = bss-hw-params
 	url = https://github.com/electronicvisions/bss-hw-params
+	shallow = true
 [submodule "calix"]
 	path = calix
 	url = https://github.com/electronicvisions/calix
+	shallow = true
 [submodule "code-format"]
 	path = code-format
 	url = https://github.com/electronicvisions/code-format
+	shallow = true
 [submodule "fisch"]
 	path = fisch
 	url = https://github.com/electronicvisions/fisch
+	shallow = true
 [submodule "flange"]
 	path = flange
 	url = https://github.com/electronicvisions/flange
+	shallow = true
 [submodule "grenade"]
 	path = grenade
 	url = https://github.com/electronicvisions/grenade
+	shallow = true
 [submodule "halco"]
 	path = halco
 	url = https://github.com/electronicvisions/halco
+	shallow = true
 [submodule "haldls"]
 	path = haldls
 	url = https://github.com/electronicvisions/haldls
+	shallow = true
 [submodule "hwdb"]
 	path = hwdb
 	url = https://github.com/electronicvisions/hwdb
+	shallow = true
 [submodule "lib-boost-patches"]
 	path = lib-boost-patches
 	url = https://github.com/electronicvisions/lib-boost-patches
+	shallow = true
 [submodule "libnux"]
 	path = libnux
 	url = https://github.com/electronicvisions/libnux
+	shallow = true
 [submodule "lib-rcf"]
 	path = lib-rcf
 	url = https://github.com/electronicvisions/lib-rcf
+	shallow = true
 [submodule "logger"]
 	path = logger
 	url = https://github.com/electronicvisions/logger
+	shallow = true
 [submodule "pywrap"]
 	path = pywrap
 	url = https://github.com/electronicvisions/pywrap
+	shallow = true
 [submodule "rant"]
 	path = rant
 	url = https://github.com/electronicvisions/rant
+	shallow = true
 [submodule "sctrltp"]
 	path = sctrltp
 	url = https://github.com/electronicvisions/sctrltp
+	shallow = true
 [submodule "visions-slurm"]
 	path = visions-slurm
 	url = https://github.com/electronicvisions/visions-slurm
+	shallow = true
 [submodule "ztl"]
 	path = ztl
 	url = https://github.com/electronicvisions/ztl
+	shallow = true
 [submodule "oppulance"]
 	path = oppulance
 	url = https://github.com/electronicvisions/oppulance
+	shallow = true
 [submodule "newlib"]
 	path = newlib
 	url = https://github.com/electronicvisions/newlib
+	shallow = true
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/electronicvisions/gcc
+	shallow = true
 [submodule "binutils-gdb"]
 	path = binutils-gdb
 	url = https://github.com/electronicvisions/binutils-gdb
+	shallow = true
 [submodule "brainscales2-demos"]
 	path = brainscales2-demos
 	url = https://github.com/electronicvisions/brainscales2-demos
+	shallow = true

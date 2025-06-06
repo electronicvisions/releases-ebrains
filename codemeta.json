@@ -27,7 +27,7 @@
     "description": "The BrainScaleS Operating System (BrainScaleS OS) is a software stack designed for the user-friendly operation of the BrainScaleS spiking neuromorphic computing architectures. It currently includes the top-level APIs \"PyNN.brainscales\", \"hxtorch\" and \"jaxsnn\".",
     "downloadUrl": "https://github.com/electronicvisions/releases-ebrains",
     "identifier": "10.5281/ZENODO.8375522",
-    "license": "https://spdx.org/licenses/LGPL-2.0+",
+    "license": "https://spdx.org/licenses/LGPL-2.0-or-later",
     "name": "BrainScaleS Operating System",
     "operatingSystem": "Linux",
     "programmingLanguage": [

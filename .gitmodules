@@ -110,3 +110,7 @@
 	path = brainscales2-demos
 	url = https://github.com/electronicvisions/brainscales2-demos
 	shallow = true
+[submodule "documentation-brainscales2"]
+	path = documentation-brainscales2
+	url = https://github.com/electronicvisions/documentation-brainscales2
+	shallow = true

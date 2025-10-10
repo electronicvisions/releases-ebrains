@@ -22,10 +22,10 @@
         }
     ],
     "dateCreated": "2022-06-02",
-    "dateModified": "2024-10-08",
+    "dateModified": "2025-10-10",
     "identifier": "10.3389/fnins.2022.884128",
     "description": "The BrainScaleS-2 Experiment Service provides access to BrainScaleS-2 neuromorphic systems; it orchestrates hardware access using a experiment microscheduler.",
     "name": "quiggeldy",
     "url": "telnet://brainscales-r.kip.uni-heidelberg.de:11750",
-    "version": "9.0"
+    "version": "11.0"
 }

@@ -22,7 +22,7 @@
     ],
     "codeRepository": "https://github.com/electronicvisions/releases-ebrains",
     "dateCreated": "2012-06-11",
-    "dateModified": "2025-10-10",
+    "dateModified": "2026-02-19",
     "datePublished": "2018-06-15",
     "description": "The BrainScaleS Operating System (BrainScaleS OS) is a software stack designed for the user-friendly operation of the BrainScaleS spiking neuromorphic computing architectures. It currently includes the top-level APIs \"PyNN.brainscales\", \"hxtorch\" and \"jaxsnn\".",
     "downloadUrl": "https://github.com/electronicvisions/releases-ebrains",
@@ -37,5 +37,5 @@
         "SystemVerilog"
     ],
     "softwareRequirements": "cf. EBRAINS Software Distribution: `spack spec pynn-brainscales hxtorch jaxsnn`",
-    "version": "11.0"
+    "version": "12.0"
 }

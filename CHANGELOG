@@ -1,0 +1,9 @@
+* [fisch] provide more debug context when pbmem times out
+* [grenade] fixes in MC functionality, CADC recording handling, 
+* [halco] Python wrapping fix, some new coordinates
+* [haldls] fix MemoryTiming-related issue, add initial support for inter-FPGA routing table
+* [hxcomm] support for MultiConnection, better logging
+* [hxtorch] add initial PlasticityRule support, support for adapt data, better ADC observables, NIR{,Data} support
+* [jaxsnn] support for NIRData
+* [pynn-brainscales] support for CADC recording
+

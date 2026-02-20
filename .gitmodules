@@ -114,3 +114,9 @@
 	path = documentation-brainscales2
 	url = https://github.com/electronicvisions/documentation-brainscales2
 	shallow = true
+[submodule "dapr"]
+	path = dapr
+	url = https://github.com/electronicvisions/dapr
+[submodule "nir"]
+	path = nir
+	url = https://github.com/electronicvisions/nir

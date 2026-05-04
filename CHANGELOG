@@ -1,3 +1,10 @@
+* [brainscales2-demos] adapting to API changes and minor updates (exp. LIF demo and fI-curve, Lui, BSS2 docs, comp. neurosci. demo)
+* [calix] optimizations for QuiggeldyConnection; int. cap. char.; inter-comp. conductance, madc char., parallelization of fits
+* [fisch] adapt to hxcomm::MultiConnection
+* [haldls] multi-chip tests; integration of hxcomm::MultiConnection
+* [hxtorch] add ExpSumOverTime decoder; add lead_conductance neuron parameter; minor fixes
+* [pynn-brainscales] support for SpikeIO RX (OffChipSource)
+
 * [fisch] provide more debug context when pbmem times out
 * [grenade] fixes in MC functionality, CADC recording handling, 
 * [halco] Python wrapping fix, some new coordinates
@@ -6,4 +13,3 @@
 * [hxtorch] add initial PlasticityRule support, support for adapt data, better ADC observables, NIR{,Data} support
 * [jaxsnn] support for NIRData
 * [pynn-brainscales] support for CADC recording
-

@@ -1,9 +1,59 @@
+# 13.0
+
+* [grenade] New experiment description and mapping in grenade 💣
+  * network interface is removed and superseeded by Topology-based interface
+  * signal_flow.{Graph,Vertex} interface is removed and superseeded by Topology-based interface
+  * enables interoperability of the model and hardware graph
+  * GreedyMapper:
+    * partitioning and placement are performed algorithmically
+    * JITCalibration: calibration is performed via calix after partitioning and placement
+  * signal_flow.pack_spikes is removed
+  * Python-based front end adapter is added
+  * Execution{Health,Time}Info are (partially) replaced by ExecutionInstanceGlobal and ExecutorGlobal
+  * execution.run can execute hardware/signal_flow-level topologies, mapping from more abstract representations is happening in user code (or the front end adapter) now
+* [pynn-brainscales] adapting to grenade
+  * preprocess() always requires executor access now. Therefore, we enable using the ZeroMock connection for software tests
+  * get_execution_{time,health}_info() is replaced by get_execution_instance_data() -> grenade.common.OutputData.ExecutionInstances
+  * Projection.placed_connections return type changes
+  * SpikeIOSourcePopulation support is temporarily disabled
+* [hxtorch] adapting to grenade
+  * PyTorch independent code is moved into core namespace, including:
+    * Experiment base class
+    * base population and projection
+    * Morphology
+    * Observables
+    * Parameters
+    * Calibration helper functions
+  * Adds mixin for trainable parameter types
+  * Adds an option to enable constant current onto neurons
+  * Spilts spiking.types into spiking.types.{population, projection}
+  * Removes obsolete NeuronPlacement
+  * Removes ExecutionInstance
+  * Replaced native calix calibration with cocolist to be more resilient to calix changes
+  * Enables projection to either be signed or unsigned
+  * Adds plasticity class
+  * Drop support for perceptron.InferenceTracer, since not used anymore
+* [calix]
+  * move CalibrationTargets to C++
+    * allows interfacing in e.g. grenade
+    * more typesafety
+    * dropped non-array supplication of targets
+    * change time unit in targets from us to s
+    * the target serialization changes, so the calibration
+  * cache gets invalidated, since the hash changes. (also applies to nightly deployed calibration)
+* [jaxsnn]
+  * temporarily drops hardware support
+
+# 12.0
+
 * [brainscales2-demos] adapting to API changes and minor updates (exp. LIF demo and fI-curve, Lui, BSS2 docs, comp. neurosci. demo)
 * [calix] optimizations for QuiggeldyConnection; int. cap. char.; inter-comp. conductance, madc char., parallelization of fits
 * [fisch] adapt to hxcomm::MultiConnection
 * [haldls] multi-chip tests; integration of hxcomm::MultiConnection
 * [hxtorch] add ExpSumOverTime decoder; add lead_conductance neuron parameter; minor fixes
 * [pynn-brainscales] support for SpikeIO RX (OffChipSource)
+
+# 11.0
 
 * [fisch] provide more debug context when pbmem times out
 * [grenade] fixes in MC functionality, CADC recording handling, 

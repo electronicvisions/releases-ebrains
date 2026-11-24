@@ -1,3 +1,35 @@
+# 14.0
+
+* [brainscales2-demos]
+  * add `jaxsnn` introductory demo
+  * enable downloading nightly calibration
+  * adapt demos to PyNN `Compartment` renaming, pre-access mapping requirement, refractory period naming consistency, and Lui task ordering
+* [calix]
+  * add `spiking3` nightly calibration and fix weekly calibration (for jaxsnn intro demo)
+  * add CADC characterization via external DAC, CADC/MADC parameter translation, and restructured MADC characterization
+  * add `Polynomial`, `Polynomial1D`, `InterpolatingCollection`, `Collection2D`, `Transformation`, `Domain`, `Linear`, and `CapacitanceInFarad` types
+  * fix `tau_mem` calibration (re-enable synaptic input beforehand), per-neuron `high_resistance` in `tau_syn` calibration, `tau_icc` serialization in calibration targets, and scalar `synapse_dac_bias` handling
+* [grenade]
+  * multi-chip support: population partitioning and placement across multiple chips (`PopulationTopologyRewrite`), round-robin external source distribution, multi-chip routing loops, and multi-chip results in `RoutingResult`
+  * add `InterChipRouter`, `InputRoutingTable`, and `OutputRoutingTable` vertices with chip config visitors and multi-chip barriers before realtime sections
+  * multi-compartment (MC) neurons: topology rewrite, bridge insertion, DFS branch placement, morphology builder tree enforcement, Python bindings for `Leak`/`Fire` mechanisms and compartment queries, and physical capacitance units per compartment in `CalibratedNeuron`
+  * move scheduling and time-related plasticity functions to internal memory, size scheduler queue to timer count, and fix time definition ordering
+  * fix PAD, MADC, and CADC recorder channel selection, honor `CalibratedNeuron` readout sources, add `TopologyLazyValidityChecker`, and fix GCC 13 / C++20 builds
+* [hxtorch]
+  * mock mode: add infrastructure for event drops, weight discretization, bounds, random noise, and fixed-pattern noise (with hardware-unaware backward pass)
+  * add synaptic input readout support, require per-atomic-neuron readout sources, adapt to physical capacitance units in `grenade`, and require float neuron parameters with `ConversionConfig` in NIR conversion
+  * make handles pickleable, use persistent output handles, refactor `AELIF` handle assembly, and fix `networkx` memory issues
+* [jaxsnn]
+  * introduce topology builder API for arbitrary architectures and expose calibration in topology
+  * add `to_nir` conversion utility, fix `from_nir` conversion, and add the `SHD` dataset
+  * replace matrix exponential with closed-form/eigen flows, replace `cond`/`switch` constructs, and clean up TTFS solver (supporting simultaneous spikes and nonzero leak)
+  * support newer JAX versions (`>= 0.12`), multi-Python-version pip builds, and dynamic versioning
+* [lib-rcf] fix data race during worker reinitialization by operating on copied data
+* [pynn-brainscales]
+  * multi-compartment (MC) API: add morphology builder, common MC neuron base class, MC projections, CADC/MADC multi-compartment recording, readout source selection, and an MC example
+  * manage plasticity readout settings, enforce initial config before parameter access without overwriting defaults, adapt to physical capacitance units in `grenade`, and fix analog readout source selection
+  * remove deprecated `pynn.preprocess()` usage from tests/examples and document hardware connection requirement for `pynn.run`
+
 # 13.0
 
 * [grenade] New experiment description and mapping in grenade 💣
